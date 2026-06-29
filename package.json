@@ -1,0 +1,10 @@
+{
+  "name": "casper-incident-management",
+  "private": true,
+  "version": "1.0.0",
+  "description": "React frontend prototype for Casper Incident Management System",
+  "scripts": {
+    "dev": "python -m http.server 5173",
+    "preview": "python -m http.server 5173"
+  }
+}

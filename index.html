@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Casper Incident Management System frontend prototype"
+    />
+    <link rel="stylesheet" href="./src/index.css" />
+    <title>Casper Incident Management</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./public/vendor/react.development.js"></script>
+    <script src="./public/vendor/react-dom.development.js"></script>
+    <script src="./public/vendor/babel.min.js"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/shared/constants/mockData.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/shared/utils/text.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/shared/components/Primitives.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/shared/components/Badges.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/shared/components/DataTable.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/shared/layouts/AuthLayout.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/shared/layouts/AppShell.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/incidents/index.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/incidents/incidents.slice.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/incidents/incidents.api.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/incidents/types.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/incidents/hooks/useIncidentFilters.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/incidents/components/IncidentList.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/incidents/components/IncidentForm.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/incidents/components/IncidentDetail.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/dashboard/components/Dashboard.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/reports/components/Reports.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/users/components/UsersScreen.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/admin/components/AdminScreen.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/settings/components/Profile.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/assignments/index.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/assignments/assignments.slice.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/assignments/assignments.api.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/assignments/types.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/alerts/index.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/alerts/alerts.slice.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/alerts/alerts.api.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/alerts/types.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/audit/index.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/audit/audit.slice.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/audit/audit.api.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/features/audit/types.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/core/auth/AuthContext.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/core/api/mockApi.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/core/store/useAppController.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/pages/DashboardPage.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/pages/IncidentsPage.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/pages/IncidentDetailPage.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/pages/IncidentFormPage.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/pages/ReportsPage.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/pages/SettingsPage.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/core/router/routes.jsx"></script>
+    <script type="text/babel" data-presets="env,react" src="./src/App.jsx"></script>
+  </body>
+</html>
